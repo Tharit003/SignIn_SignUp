@@ -13,9 +13,9 @@ class MyIconButton extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.white),
+        border: Border.all(color: Color.fromARGB(255, 134, 133, 133)),
         borderRadius: BorderRadius.circular(16),
-        color: Colors.grey.shade600,
+        color: const Color.fromARGB(255, 232, 233, 233),
       ),
       child: Image.asset(imagePath,height: 40,),
     );
